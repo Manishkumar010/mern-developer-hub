@@ -4,6 +4,8 @@
 
 
 
+
+
 A centralized platform for MERN stack developers to access curated learning resources, reusable components, project ideas, career opportunities, and essential tools — all in one place!
 
 🌟 Overview
@@ -52,6 +54,7 @@ mern-developer-hub/
 🚀 Getting Started
 1️⃣ Clone the repo
 git clone https://github.com/Manishkumar010/mern-developer-hub
+
 cd mern-developer-hub
 
 2️⃣ Install dependencies
@@ -70,7 +73,7 @@ This project is deployed on Vercel.
 You can easily deploy by linking your GitHub repo → Vercel Dashboard
 
 📸 Screenshots
-<img width="1896" height="831" alt="Screenshot 2025-08-27 123842" src="https://github.com/user-attachments/assets/378ef5f3-ffa0-4bc6-ac8b-bdab6c1ba687" />
+<img width="1899" height="824" alt="Screenshot 2025-08-27 123659" src="https://github.com/user-attachments/assets/963c50f6-e61c-46c3-9f31-11882125443b" />
 <img width="1897" height="830" alt="Screenshot 2025-08-27 123823" src="https://github.com/user-attachments/assets/6e8b8452-5407-4988-bd2d-346b2709b464" />
 <img width="1896" height="831" alt="Screenshot 2025-08-27 123842" src="https://github.com/user-attachments/assets/b6b36b2a-bad3-4f3a-814e-f2f03397b662" />
 <img width="1895" height="830" alt="Screenshot 2025-08-27 123811" src="https://github.com/user-attachments/assets/b520ad57-6dac-4867-ab19-1b6fcfc00808" />
