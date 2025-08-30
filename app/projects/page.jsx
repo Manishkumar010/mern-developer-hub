@@ -169,7 +169,7 @@ export default function ProjectsPage() {
 
       <main className="flex-1">
         {/* Header Section */}
-        <section className="bg-gradient-to-b from-muted/50 to-background py-16 px-4 sm:px-6 lg:px-8">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6">Projects</h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">

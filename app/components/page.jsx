@@ -154,12 +154,12 @@ export default function ComponentsPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col ">
       <Navigation />
 
-      <main className="flex-1">
+      <main className="flex-1 ">
         {/* Header Section */}
-        <section className="bg-gradient-to-b from-muted/50 to-background py-16 px-4 sm:px-6 lg:px-8">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6">Components & Templates</h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -170,7 +170,7 @@ export default function ComponentsPage() {
         </section>
 
         {/* Search Section */}
-        <section className="py-8 px-4 sm:px-6 lg:px-8 border-b">
+        <section className="py-8 px-4 sm:px-6 lg:px-8 border-b border-amber-100 bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]" >
           <div className="max-w-7xl mx-auto">
             <div className="relative max-w-md mx-auto">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -185,7 +185,7 @@ export default function ComponentsPage() {
         </section>
 
         {/* Tabs Section */}
-        <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]">
           <div className="max-w-7xl mx-auto">
             <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
               <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto mb-8">
