@@ -22,7 +22,7 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
-      <main className="flex-1">
+      <main className="flex-1 bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]">
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-muted/50 to-background py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">

@@ -123,17 +123,16 @@ export default function CareerPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
-      <div style={{ minHeight: "100vh", backgroundColor: "#f5f5f5", fontFamily: "Arial, sans-serif" }}>
-        <div style={{ backgroundColor: "#ffffff", borderBottom: "2px solid #cccccc", padding: "20px 0" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px", textAlign: "center" }}>
-            <h1 style={{ fontSize: "32px", color: "#333333", margin: "0 0 10px 0", fontWeight: "bold" }}>
-              Career Opportunities
-            </h1>
-            <p style={{ fontSize: "16px", color: "#666666", margin: "0" }}>
+      <div className="bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]" style={{ minHeight: "100vh", backgroundColor: "#f5f5f5", fontFamily: "Arial, sans-serif" }}>
+    
+          <section className=" border-b border-black py-16 px-4 sm:px-6 lg:px-8 ">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6"> Career Opportunities</h1>
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Find MERN Stack Developer Jobs at Top Companies
             </p>
           </div>
-        </div>
+        </section>
 
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "20px" }}>
           <div style={{ backgroundColor: "#ffffff", border: "1px solid #dddddd", padding: "20px", marginBottom: "20px" }}>

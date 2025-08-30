@@ -180,7 +180,7 @@ export default function ProjectsPage() {
         </section>
 
         {/* Search and Filter Section */}
-        <section className="py-8 px-4 sm:px-6 lg:px-8 border-b">
+        <section className="py-8 px-4 sm:px-6 lg:px-8 border-b bg-gradient-to-r from-[#dfe2fe] via-[#b1cbfa] to-[#8e98f5]">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-between">
               <div className="relative flex-1 max-w-md">
@@ -189,7 +189,7 @@ export default function ProjectsPage() {
                   placeholder="Search projects..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-10 border border-gray-200"
+                  className="pl-10 border border-gray-400"
                 />
               </div>
               <div className="flex gap-2">
